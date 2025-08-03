@@ -33,8 +33,8 @@
       };
     </script>
   </head>
-  <body class="max-w-5xl mx-auto px-6 lg:px-6">
-    <header>
+  <body>
+    <header class="max-w-5xl mx-auto px-6 lg:px-6">
       <div class="lg:flex pt-20 pb-20">
         <!-- container -->
         <div>
@@ -73,7 +73,7 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="max-w-5xl mx-auto px-6 lg:px-6">
       <!-- Our Featured Products -->
       <section class="mb-24">
         <div class="text-center py-8 mb-4">
@@ -256,8 +256,96 @@
           </div>
         </div>
       </section>
+      <!-- News & Events -->
+      <section></section>
     </main>
-    <footer></footer>
+    <footer class="bg-orange-100 text-gray-700 py-10 py-4 md:px-16">
+      <section class="w-9/12 mx-auto">
+        <!-- logo -->
+        <div class="mb-8 flex justify-between">
+          <img class="mb-8" src="images/cup.png" alt="" />
+          <div class="flex items-center gap-2">
+            <p>Ready to get strated?</p>
+            <button
+              class="bg-linear-to-r from-[#FF8938] to-[#FF0000] px-3 py-2 rounded-2xl text-white text-xl"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+        <!-- links -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <!-- 1st colums -->
+          <div>
+            <h2 class="font-semibold text-lg mb-3">Quick Links</h2>
+            <ul class="space-y-2">
+              <li><a class="hover:text-orange-600" href="">home</a></li>
+              <li><a class="hover:text-orange-600" href="">about</a></li>
+              <li><a class="hover:text-orange-600" href="">insureance</a></li>
+              <li>
+                <a class="hover:text-orange-600" href="">privacy policy</a>
+              </li>
+            </ul>
+          </div>
+          <!-- 2nd -->
+          <div>
+            <h2 class="font-semibold text-lg mb-3">Our Service</h2>
+            <ul class="space-y-2">
+              <li>
+                <a class="hover:text-orange-600" href="">Life Insurance</a>
+              </li>
+              <li>
+                <a class="hover:text-orange-600" href="">Car Insurance</a>
+              </li>
+              <li>
+                <a class="hover:text-orange-600" href="">Health Insurance</a>
+              </li>
+              <li>
+                <a class="hover:text-orange-600" href="">House Insurance</a>
+              </li>
+            </ul>
+          </div>
+          <!--3rd colums -->
+          <div>
+            <h2 class="font-semibold text-lg mb-3">Help</h2>
+            <ul class="space-y-2">
+              <li><a class="hover:text-orange-600" href="">FAQs</a></li>
+              <li><a class="hover:text-orange-600" href="">Contact Us</a></li>
+            </ul>
+          </div>
+          <!-- 4th colums -->
+          <div>
+            <h2 class="font-semibold text-lg mb-3">
+              Subscribe to our <br />newsletter
+            </h2>
+            <div class="flex flex-col space-y-2">
+              <div>
+                <input
+                  class="bg-transparent border-b-2 w-4/6 md:w-5/6"
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="email address"
+                />
+                <i
+                  class="fa-solid fa-chevron-right w-15 h-15 bg-orange-600 rounded-full text-white justify-center items-center"
+                ></i>
+              </div>
+              <div class="flex justify-between w-2/5 mb-2 mt-8">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center pt-4 mt-4">
+          <p class="text-sm text-gray-600">
+            © 2027 UIDesign.to - All rights reserved.
+          </p>
+        </div>
+      </section>
+    </footer>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/js/all.min.js"
       integrity="sha512-gBYquPLlR76UWqCwD06/xwal4so02RjIR0oyG1TIhSGwmBTRrIkQbaPehPF8iwuY9jFikDHMGEelt0DtY7jtvQ=="
